@@ -26,7 +26,7 @@
         mkdir($uploadDirectoryPath);
       } else {
         // Grab all files inside upload/ and delete them with unlink($filename)
-        foreach (glob($uploadDirectoryPath.'*.*') as $file) {
+        foreach (glob($uploadDirectoryPath . '*.*') as $file) {
           unlink($file);
         }
       }
