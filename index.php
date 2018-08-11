@@ -15,7 +15,7 @@
       // Path of upload/ directory
       $uploadDirectoryPath = "upload/";
       // Regular expression of a URL (incomplete)
-      $regexURL = "#^https?:\/\/([a-z\d-_]{2,}\.){1,}[a-z]{2,20}\/?#i";
+      $regexURL = "#^https?:\/\/([\w-]{2,63}\.){1,}\w{1,2000}[a-z]{2,20}\/?#i";
       // Regular expression of an image file
       $regexImages = "#([^\"']*\.(jpe?g|a?png|bmp|tiff|svg))#i";
 
